@@ -43,7 +43,7 @@
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #0a0a23;
+  background-color: #b6a5e9;
   color: #ffffff;
 }
 .palindrome-definition-div {
@@ -65,4 +65,36 @@ body {
 #result {
   color: #000000;
   font-size: 20px;
+}
+#check-btn {
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#check-btn:hover,
+#check-btn:focus {
+  background-color: #f082ac;
 }
